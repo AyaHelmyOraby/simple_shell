@@ -28,7 +28,7 @@ int _strcmp(char *char1, char *char2)
 	while (char1 && char2)
 	{
 		if (*char1 != *char2)
-			return (*char1 - *char2)
+			return (*char1 - *char2);
 		char1++;
 		char2++;
 	}
