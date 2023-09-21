@@ -39,7 +39,7 @@ int _strcmp(char *char1, char *char2)
 }
 
 /**
-*  starts_withhay - checks if needlehay starts with haystack
+*  *starts_withhay - checks if needlehay starts with haystack
 *  @haystack:  string to search
 *  @needlehay: the substring to find
 *
@@ -54,7 +54,7 @@ char *starts_withhay(const char haystack, const char *needlehay)
 }
 
 /**
-*  _strcat - concatenates two strings.
+*  *_strcat - concatenates two strings.
 *  @destt: the destination buffer
 *  @src : the source buffer
 *
